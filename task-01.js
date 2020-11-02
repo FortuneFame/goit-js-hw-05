@@ -17,3 +17,16 @@ console.log(mango.getInfo());
  const poly = new Account( 'Poly', 'poly@mail.com');
 console.log(poly.getInfo());
 // 'login : Poly, email: poly@mail.com'
+
+//========================== 2 ВАРИАНТ (Через ES6 Классы) ===============================//
+
+// class Account {
+//  constructor (login, email){
+//    this.login = login;
+//    this.email = email;
+//  }
+//   getInfo(){
+//     return `login : ${this.login}, email: ${this.email}`
+//   }
+// }
+
